@@ -14,8 +14,15 @@ import org.junit.runners.Parameterized.Parameters;
 
 public class Test1Test {
 	private static Test1 t1;
-	int except,input1,input2;
+	 private int except,input1,input2;
 	
+	public Test1Test(int input1,int input2,int except) {
+		this.except = except;
+		this.input1 = input1;
+		this.input2 = input2;
+		
+		
+	}
 	@Parameters
 	public static Collection<Object[]> initTestData(){
 		return Arrays.asList(

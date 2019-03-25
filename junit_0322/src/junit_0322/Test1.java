@@ -6,8 +6,8 @@ public class Test1 {
 	private int a,b,c;
 	
 	public int total(int a,int b) {
-		int c=0;
-		c=a+b;
+		
+		c=a-b;
 		
 		return c;
 	}
